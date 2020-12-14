@@ -6,7 +6,7 @@ Platinus Home Page
 
 */
 
-require $_SERVER["DOCUMENT_ROOT"] . "/../WebAssemblies/loader.php";
+require $_SERVER["DOCUMENT_ROOT"] . "/../../WebAssemblies/loader.php";
 
 $page = new Platinus\Web();
 
@@ -18,7 +18,7 @@ $headers = $page->buildHeaders();
 
 ?>
 <h1>Platinus</h1>
-<h3>Yeah</h3>
+<h3>Simple home page</h3>
 <?php
 
 $page->buildPage($headers);
