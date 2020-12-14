@@ -8,9 +8,7 @@ Platinus Home Page
 
 require $_SERVER["DOCUMENT_ROOT"] . "/../WebAssemblies/loader.php";
 
-use Platinus\Web;
-
-$page = new Web();
+$page = new Platinus\Web();
 
 ?>
 <!--custom headers-->
