@@ -17,8 +17,14 @@ $page = new Platinus\Web();
 $headers = $page->buildHeaders();
 
 ?>
+<div class="plt-header">
+<div class="container">
 <h1>Platinus</h1>
+</div>
+</div>
+<div class="container">
 <h3>Simple home page</h3>
+</div>
 <?php
 
 $page->buildPage($headers);

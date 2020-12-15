@@ -28,7 +28,7 @@ class Web {
 	public function buildPage($headers) {
 		$contents = ob_get_contents();
 		ob_end_clean();
-		echo "<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" href=\"//cdn." . Web::GetDomain() . "/CSS/Base/fetch/\">\n$headers</head>\n<body>\n$contents</body>\n</html>";
+		echo "<!DOCTYPE html>\n<html>\n<head>\n<link rel=\"stylesheet\" href=\"//cdn." . Web::GetDomain() . "/CSS/Global/fetch/\">\n$headers</head>\n<body>\n$contents</body>\n</html>";
 	}
 }
 
