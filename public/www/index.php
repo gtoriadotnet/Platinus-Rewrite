@@ -18,12 +18,20 @@ $headers = $page->buildHeaders();
 
 ?>
 <div class="plt-header">
-<div class="container">
-<h1>Platinus</h1>
+<div class="container plt-nav-container">
+<img class="plt-nav-icon" src="<?= "//cdn." . $page->GetDomain() . "/IMG/Nav.png" ?>" alt="P"></img>
+<ul class="plt-nav">
+<li>
+<a href="#">Navbar Item</a>
+</li>
+<li>
+<a href="#">Navbar Item</a>
+</li>
+</ul>
 </div>
 </div>
-<div class="container">
-<h3>Simple home page</h3>
+<div class="container plt-body">
+<h3>pog</h3>
 </div>
 <?php
 
