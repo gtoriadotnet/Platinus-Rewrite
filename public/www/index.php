@@ -22,10 +22,16 @@ $headers = $page->buildHeaders();
 <img class="plt-nav-icon" src="<?= "//cdn." . $page->GetDomain() . "/IMG/Nav.png" ?>" alt="P"></img>
 <ul class="plt-nav">
 <li>
-<a href="#">Navbar Item</a>
+<a href="#">Home</a>
 </li>
 <li>
-<a href="#">Navbar Item</a>
+<a href="#">Games</a>
+</li>
+<li>
+<a href="#">Catalog</a>
+</li>
+<li>
+<a href="#">Create</a>
 </li>
 </ul>
 </div>

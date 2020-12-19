@@ -23,7 +23,7 @@ body, div, h1, h2, h3, h4, h5 {
 body {
 	font-family: segoe ui;
 	min-height: 100vh;
-	background-color: #f0f0fa;
+	background-color: #f9f9fb;
 }
 
 .plt-header {
@@ -44,17 +44,31 @@ body {
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	margin-top: -4px;
+	margin-right: auto;
 }
 
 .plt-nav li {
 	float: left;
+	padding-right: 3px;
 }
 
 .plt-nav li a {
 	display: block;
+	color: white;
+	font-family: Arial,Helvetica,sans-serif;
+	font-weight: bold;
+    text-shadow: #000000a3 1px 1px 1px;
 	text-align: center;
 	text-decoration: none;
-	height: 32px;
+	height: 28px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+}
+
+.plt-nav li a:hover {
+	background: linear-gradient(#629de4, #1b559d);
 }
 
 .plt-nav-icon {
@@ -71,5 +85,5 @@ body {
 	padding-left: 10px;
 	padding-right: 10px;
 	margin: auto;
-	max-width: 900px;
+	max-width: 1200px;
 }
