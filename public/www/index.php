@@ -33,6 +33,9 @@ $headers = $page->buildHeaders();
 <li>
 <a href="#">Create</a>
 </li>
+<li>
+<a href="#">Forum</a>
+</li>
 </ul>
 </div>
 </div>

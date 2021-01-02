@@ -27,16 +27,14 @@ body {
 }
 
 .plt-header {
-	height: 40px;
-	background: linear-gradient(#2576da, #1b559d);
+	height: 50px;
+	background: linear-gradient(to right, #fc5c7d, #6a82fb);
 	border: 0;
-	border-bottom: 1px #292a2f;
-	border-style: solid;
-	box-shadow: #292a2f 0 -18px 2px 20px;
+	box-shadow: #ababab 0 -19px 2px 20px;
 }
 
 .plt-nav-container {
-	padding-top: 4px;
+	padding-top: 9px;
 	display: flex;
 }
 
@@ -68,7 +66,8 @@ body {
 }
 
 .plt-nav li a:hover {
-	background: linear-gradient(#629de4, #1b559d);
+	border-radius: 10px;
+	background: #d6d6d640;
 }
 
 .plt-nav-icon {
