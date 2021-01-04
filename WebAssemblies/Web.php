@@ -32,4 +32,4 @@ class Web {
 	}
 }
 
-?>
+//EOF

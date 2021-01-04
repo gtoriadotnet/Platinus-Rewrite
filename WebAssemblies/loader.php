@@ -13,4 +13,4 @@ function reqMod($mod) {
 reqMod("Web.php");
 reqMod("API.php");
 
-?>
+//EOF
