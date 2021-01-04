@@ -2,11 +2,11 @@
 
 /*
 
-Platinus CDN Api
+Platinus Data Api
 
 */
 
-require $_SERVER["DOCUMENT_ROOT"] . "/../../../WebAssemblies/loader.php";
+require $_SERVER["DOCUMENT_ROOT"] . "/../../WebAssemblies/loader.php";
 
 $page = new Platinus\API();
 

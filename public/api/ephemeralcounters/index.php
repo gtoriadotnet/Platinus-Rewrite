@@ -2,7 +2,7 @@
 
 /*
 
-Platinus CDN Api
+Platinus Ephemeral Counters Api
 
 */
 

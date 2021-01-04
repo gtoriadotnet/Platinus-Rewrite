@@ -24,6 +24,12 @@ class API {
 		exit(API::PrettyJSONEncode(["error"=>"$message", "incidentID"=>$incident]));
 	}
 	
+	function RespondJSON($array)
+	{
+		header("Content-Type: application/json");
+		exit(API::PrettyJSONEncode($array));
+	}
+	
 	function PrettyJSONEncode($array){
 		return json_encode($array, JSON_PRETTY_PRINT);
 	}
