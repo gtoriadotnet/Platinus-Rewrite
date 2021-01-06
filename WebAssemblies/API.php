@@ -10,6 +10,9 @@ namespace Platinus;
 
 class API {
 	function __construct() {
+		if(isset($_SERVER["REQUEST_URI"]) && strpos($_SERVER["REQUEST_URI"],".php")){
+			API::InvokeError(403, "Unauthorized");
+		}
 		if(http_response_code() == 404){
 			API::InvokeError(403, "Unauthorized");
 		}
