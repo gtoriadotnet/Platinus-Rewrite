@@ -27,10 +27,15 @@ class API {
 		exit(API::PrettyJSONEncode(["error"=>"$message", "incidentID"=>$incident]));
 	}
 	
-	function RespondJSON($array)
+	function RespondJSON($array, $shouldExit = true)
 	{
 		header("Content-Type: application/json");
-		exit(API::PrettyJSONEncode($array));
+		$json = API::PrettyJSONEncode($array);
+		if($shouldExit){
+			exit($json);
+		}else{
+			echo($json);
+		}
 	}
 	
 	function PrettyJSONEncode($array){
