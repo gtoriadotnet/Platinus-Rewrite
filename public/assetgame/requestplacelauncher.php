@@ -45,6 +45,6 @@ require $_SERVER["DOCUMENT_ROOT"] . "/../../WebAssemblies/loader.php";
 
 $page = new Platinus\API();
 
-$page->RespondJSON(array("jobId"=>"2ea2b52a-1784-4eed-a6f3-7375b13f1a11", "status"=>1, "joinScriptUrl"=>"http://assetgame.platinus.local/Game/Join.ashx?ticketVersion=2&ticket=%7b%22UserId%22%3a-405225060%2c%22UserName%22%3a%22Guest+5060%22%2c%22CharacterFetchUrl%22%3a%22http%3a%2f%2fassetgame.roblox.com%2fAsset%2fCharacterFetch.ashx%3fuserId%3d15560089%26placeId%3d163865146%22%2c%22GameId%22%3a%222ea2b52a-1784-4eed-a6f3-7375b13f1a11%22%2c%22PlaceId%22%3a163865146%2c%22UniverseId%22%3a78260373%2c%22IsTeleport%22%3afalse%2c%22FollowUserId%22%3anull%2c%22TimeStamp%22%3a%228%2f9%2f2016+9%3a20%3a24+PM%22%2c%22CharacterAppearanceId%22%3a15560089%7d&signature=kCFfFOyyXIXMh%2fVxfrZUM5IxiXfGzmo%2bW9zlyM65GsN%2fgjHVXs2xbrx83NpwbAnrtOQcclxlhfJUPZRZJGkOnJE4GzHUKyiGpoz2nznhegR%2f9IzYc9fW4W%2fOVvmg0Ft61IPrFGBqqvhx7WUrGN1lNz%2f5ajn176RGky4zUGuO1WI%3d&connectionInfo=yc2znFjlRjgIpp1jZf1OLN8p7aOGYPvYpTSg%2bj1mHixmx5dy2qrtQ%2bPd0JYfeBU2i5oew%2bvcy7UHWkzxOnbvuEt1ezw%3d&browserTrackerId=0", "authenticationUrl"=>"http://api.platinus.local/Login/Negotiate.ashx", "authenticationTicket"=>"Guest:-405225060"));
+$page->RespondJSON(array("jobId"=>"2ea2b52a-1784-4eed-a6f3-7375b13f1a11", "status"=>2, "joinScriptUrl"=>"http://assetgame.platinus.local/Game/Join.ashx", "authenticationUrl"=>"http://api.platinus.local/Login/Negotiate.ashx", "authenticationTicket"=>"Guest:-405225060"));
 
 //EOF

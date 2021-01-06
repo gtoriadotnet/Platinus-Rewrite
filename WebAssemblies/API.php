@@ -39,7 +39,7 @@ class API {
 	}
 	
 	function PrettyJSONEncode($array){
-		return json_encode($array, JSON_PRETTY_PRINT);
+		return json_encode($array);
 	}
 }
 
