@@ -28,7 +28,7 @@ ob_start();
 
 $page->RespondJSON(array(
 	"ClientPort"=>0,
-	"MachineAddress"=>"127.0.0.1",
+	"MachineAddress"=>"192.168.0.22",
 	"ServerPort"=>53640,
 	"PingUrl"=>"",
 	"PingInterval"=>120,

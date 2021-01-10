@@ -2,7 +2,7 @@
 
 /*
 
-Allowed MD5 hash list
+Allowed security versions
 
 */
 

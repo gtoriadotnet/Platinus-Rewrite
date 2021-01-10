@@ -1,4 +1,5 @@
 RewriteEngine on
 RewriteRule ^Setting/QuietGet/ClientAppSettings/?$ /cappsettings.php [NC,L]
 RewriteRule ^Setting/QuietGet/ClientSharedSettings/?$ /cshared.php [NC,L]
+RewriteRule ^Setting/QuietGet/PCCServiceXfzJ9PaGxRfapBn7PZ5u/?$ /pccservice.php [NC,L]
 ErrorDocument 404 /index.php
