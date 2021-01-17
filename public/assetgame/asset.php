@@ -15,6 +15,8 @@ function isGetSet($needle)
 	return isset($_GET[$needle]) && $_GET[$needle] == (int)$_GET[$needle];
 }
 
+file_put_contents("egg.txt", print_r($_SERVER, true));
+
 if(isGetSet("id"))
 {
 	$url = "https://assetdelivery.roblox.com/v1/asset/?id=" . $_GET["id"];
