@@ -28,7 +28,9 @@ if(isset($_GET["filename"])){
 		mkdir($logDir . "/$ip/");
 	}
 	
-	file_put_contents($logDir . "/$ip/" . date("U",time()), urldecode($_GET["filename"]) . "\n" . file_get_contents("php://input"));
+	$decodeResult = @gzdecode(file_get_contents("php://input"));
+	
+	file_put_contents($logDir . "/$ip/" . date("U",time()) . "_" . rand(10000,99999) . ".txt", urldecode($_GET["filename"]) . "\n" . ($decodeResult) ? $decodeResult : file_get_contents("php://input"));
 }
 
 //EOF
