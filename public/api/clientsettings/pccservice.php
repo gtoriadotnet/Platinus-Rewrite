@@ -14,6 +14,7 @@ header("Content-Type: application/json");
 
 ?>
 {
+	"FFlagUS30484p3": "True",
 	"FIntUS30484p2": 100,
     "GoogleAnalyticsAccountPropertyID": "G-47TC169RJN",
     "GoogleAnalyticsAccountPropertyIDPlayer": "G-CSJXGEJRH3",

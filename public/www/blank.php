@@ -1,0 +1,1 @@
+<img class="lol" src="file:///C:/:$i30:$bitmap">

@@ -28,7 +28,7 @@ ob_start();
 
 $page->RespondJSON(array(
 	"ClientPort"=>0,
-	"MachineAddress"=>"192.168.0.3",
+	"MachineAddress"=>"127.0.0.1",
 	"ServerPort"=>53640,
 	"PingUrl"=>"",
 	"PingInterval"=>120,
@@ -45,7 +45,7 @@ $page->RespondJSON(array(
 	"VideoInfo"=>"<?xml version=\"1.0\"?><entry xmlns=\"http://www.w3.org/2005/Atom\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns:yt=\"http://gdata.youtube.com/schemas/2007\"><media:group><media:title type=\"plain\"><![CDATA[Platinus Place]]></media:title><media:description type=\"plain\"><![CDATA[ For more games visit http://www.platinus2016.ga]]></media:description><media:category scheme=\"http://gdata.youtube.com/schemas/2007/categories.cat\">Games</media:category><media:keywords>Platinus, 2016, ROBLOX, video, free game, online virtual world</media:keywords></media:group></entry>",
 	"BaseUrl"=>"http://assetgame.platinus.local/",
 	"ChatStyle"=>"ClassicAndBubble",
-	"CreatorId"=>0,
+	"CreatorId"=>420,
 	"CreatorTypeEnum"=>"User",
 	"MembershipType"=>"None",
 	"AccountAge"=>0,

@@ -1,3 +1,5 @@
 RewriteEngine on
 RewriteRule ^Login/Negotiate.ashx$ /negotiatecookie.php [NC,L]
+RewriteRule ^universes/validate-place-join/?$ /validate.php [NC,L]
+RewriteRule ^game/players/([0-9]+)/?$ /chatinfo.php [NC,L]
 ErrorDocument 404 /index.php
